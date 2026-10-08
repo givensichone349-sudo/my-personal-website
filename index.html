@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Given Sichone | Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Given Sichone, back to top">GS</a>
+
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning-plan">Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true">&#9728;</span>
+        <span class="sr-only" id="theme-label">Switch to light theme</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Given <span class="accent">Sichone</span></h1>
+        <p class="hero-roles">
+          Computer Science <span aria-hidden="true">&bull;</span> Developer <span aria-hidden="true">&bull;</span> Builder
+        </p>
+        <p class="programme">BSc Computer Science | Second Year | Mulungushi University</p>
+        <p class="intro">
+          I build digital solutions, learn every day, and aim to create a
+          positive impact through technology.
+        </p>
+        <a class="btn" href="#projects">View My Projects <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <a class="scroll-hint" href="#projects">
+        <span class="scroll-line" aria-hidden="true"></span>
+        Scroll down
+      </a>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="content-section">
+      <div class="container">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Projects and Skills</h2>
+        <p class="section-lead">
+          Three examples of what I have built and learned, from school assignments
+          to personal experiments.
+        </p>
+
+        <div class="project-grid">
+
+          <article class="project-card glass">
+            <div class="project-thumb thumb-two" aria-hidden="true">Java &middot; JavaFX</div>
+            <h3><span class="dot dot-blue" aria-hidden="true"></span>JavaFX Desktop App</h3>
+            <ul class="tags" aria-label="Technologies used">
+              <li>Java</li><li>JavaFX</li><li>Validation</li>
+            </ul>
+            <p>A desktop customer manager with a form, a table and a delete confirmation.</p>
+            <p class="learned"><strong>What I learned:</strong> building a graphical interface, validating input, and confirming destructive actions.</p>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-thumb thumb-three" aria-hidden="true">AWS &middot; ML</div>
+            <h3><span class="dot dot-purple" aria-hidden="true"></span>AWS AI &amp; ML Challenge</h3>
+            <ul class="tags" aria-label="Technologies used">
+              <li>AWS</li><li>Machine Learning</li><li>Cloud</li>
+            </ul>
+            <p>Completed the AWS AI &amp; ML Scholars 2026 Challenge and built practical ML solutions with AWS services.</p>
+            <p class="learned"><strong>What I learned:</strong> core machine learning ideas and how cloud services turn them into working tools.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="content-section">
+      <div class="container">
+        <p class="eyebrow">About Me</p>
+        <h2>Who I Am</h2>
+        <div class="about-panel glass">
+          <img src="images/photo1.jpeg" alt="Portrait of Given Sichone" class="about-photo">
+          <p>
+            Hi, I am Given Sichone, a second-year Computer Science student at
+            Mulungushi University. I have a strong interest in web development and enjoy turning ideas into working
+            websites and applications. Alongside my studies, I am building Nkusu, a support
+            platform aimed at the Zambian and African market. I hold an AWS AI Practitioner
+            certification and I am constantly looking for ways to sharpen my technical
+            skills, especially in areas like network engineering and cybersecurity. Outside
+            of coding, I enjoy reading novels and baking in my free time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="content-section">
+      <div class="container">
+        <p class="eyebrow">Outside The Code</p>
+        <h2>My Hobbies</h2>
+        <ul class="hobby-list">
+          <li class="glass">Reading novels</li>
+          <li class="glass">Baking</li>
+          <li class="glass">Programming</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LEARNING PLAN -->
+    <section id="learning-plan" class="content-section">
+      <div class="container">
+        <p class="eyebrow">What's Next</p>
+        <h2>My Learning Plan</h2>
+
+        <ol class="plan-list glass">
+          <li>Practice building small projects every week to apply new concepts.</li>
+          <li>Work through structured tutorials on HTML, CSS, and JavaScript fundamentals.</li>
+          <li>Read documentation and contribute to open-source beginner-friendly repositories.</li>
+        </ol>
+
+        <div class="table-wrap glass">
+          <table>
+            <caption>Weekly Web Learning Plan</caption>
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Topic</th>
+                <th scope="col">Practice Task</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>HTML Structure</td>
+                <td>Build a semantic page layout from scratch</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>CSS Styling</td>
+                <td>Style a page using Flexbox and custom colors</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>JavaScript Basics</td>
+                <td>Write a small script to validate a form</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section id="photos" class="content-section">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <h2>My Photos</h2>
+        <p class="section-lead">Use the buttons to browse through my photos.</p>
+
+        <div class="gallery glass">
+          <figure class="gallery-viewer">
+            <img id="gallery-image" src="images/photo2.jpeg" alt="Given Sichone sitting outdoors under a tree">
+            <figcaption id="gallery-caption">Me outdoors, taking a break from studying.</figcaption>
+          </figure>
+
+          <div class="gallery-controls">
+            <button type="button" id="gallery-prev" class="btn">Previous</button>
+            <p id="gallery-count" aria-live="polite">Photo 1 of 3</p>
+            <button type="button" id="gallery-next" class="btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" class="content-section">
+      <div class="container">
+        <p class="eyebrow">Watch &amp; Listen</p>
+        <h2>My Media</h2>
+
+        <div class="media-grid">
+          <div class="media-card glass">
+            <h3>Introduction Video</h3>
+            <p>
+              A short video where I introduce myself, my programme, and one web skill
+              I'm hoping to learn.
+            </p>
+            <video controls preload="metadata">
+              <source src="videos/intro-small2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="transcript">
+              <strong>Transcript:</strong> "Hi, my name is Given Sichone. I'm a second-year
+              Computer Science student at Mulungushi University. I'm hoping to sharpen my
+              skills in web development this semester."
+            </p>
+          </div>
+
+          <div class="media-card glass">
+            <h3>Audio Clip</h3>
+            <p>
+              A short audio recording about one of my hobbies and why I'm studying
+              web technologies.
+            </p>
+            <audio controls preload="metadata">
+              <source src="videos/voice.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <p class="transcript">
+              This clip talks about my interest in baking and how I got started with
+              programming and web development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="content-section">
+      <div class="container">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Contact</h2>
+
+        <form action="#" id="contact-form" class="glass" novalidate>
+          <p class="form-note"><strong>Browser demonstration only — no message is sent.</strong></p>
+
+          <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+            <span class="error" id="name-error" aria-live="polite"></span>
+          </div>
+
+          <div class="field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <span class="error" id="email-error" aria-live="polite"></span>
+          </div>
+
+          <div class="field">
+            <label for="topic">Topic:</label>
+            <select id="topic" name="topic">
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error" id="message-error" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn">Validate Message</button>
+        </form>
+
+        <div id="form-feedback" aria-live="polite"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Given Sichone</p>
+    <p>
+      <a href="https://github.com/givensichone-sudo" target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+      |
+      <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">Learn Web Dev on MDN</a>
+      |
+      <a href="#home">Back to top</a>
+    </p>
+  </footer>
+
+</body>
+</html>
